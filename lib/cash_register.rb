@@ -15,7 +15,7 @@ def add_item(title,price,count=1)
 end
 
 def apply_discount
-@total.discout
+@total = self.total.discout
 
 end
 end
