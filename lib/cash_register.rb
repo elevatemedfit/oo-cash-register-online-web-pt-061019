@@ -26,7 +26,7 @@ def apply_discount
     end
 
     def items
-      @items
+      @items.flatten
     end
 
 end
