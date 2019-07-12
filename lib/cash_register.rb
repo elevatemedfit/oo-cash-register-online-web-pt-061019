@@ -24,8 +24,7 @@ def apply_discount
       end
     end
 
-    def items.all
-      @items << self.new
+    def items
     end
 
 end
