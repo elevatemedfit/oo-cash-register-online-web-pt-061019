@@ -25,5 +25,6 @@ def apply_discount
     end
 
     def items
+      @items<<self.all
     end
 end
