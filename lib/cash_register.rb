@@ -16,6 +16,5 @@ end
 
 def apply_discount
   @total = (add_item * discount)
-binding.pry
 end
 end
