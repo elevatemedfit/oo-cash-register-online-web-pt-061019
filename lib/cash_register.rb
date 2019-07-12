@@ -15,7 +15,7 @@ def add_item(title,price,count=1)
   @items << (title.split(","))*count#80 + @18
   @total = self.total+(price*count)
   @last_transaction -= (price*count)
-  @last_transaction
+  
 end
 
 def apply_discount
