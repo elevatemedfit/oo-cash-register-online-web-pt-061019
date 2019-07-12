@@ -12,7 +12,7 @@ def discount
 end
 
 def add_item(title,price,count=1) #80 + @18
-  self.total+(price*count)
+  @total = @total+(price*count)
 end
 
 def apply_discount
