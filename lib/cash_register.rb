@@ -25,7 +25,7 @@ def apply_discount
     end
 
     def items
-      @items
+      @items << self
     end
 
 end
