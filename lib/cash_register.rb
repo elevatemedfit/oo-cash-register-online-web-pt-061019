@@ -25,6 +25,6 @@ def apply_discount
     end
 
     def items
-      @items<<self.total
+      @items<<self.add_item
     end
 end
