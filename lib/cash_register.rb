@@ -25,6 +25,6 @@ def apply_discount
     end
 
     def items
-      @items<<add_item.title
+      @items<<add_item.all.title
     end
 end
