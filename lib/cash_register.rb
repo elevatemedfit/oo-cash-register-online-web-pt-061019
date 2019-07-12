@@ -11,7 +11,7 @@ def discount
 end
 
 def add_item(title,price,count=1)
-  @total=@total+(price*count)
+  @total=self.total+(price*count)
 end
 
 def apply_discount
