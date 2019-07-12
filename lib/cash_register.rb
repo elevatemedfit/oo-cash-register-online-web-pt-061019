@@ -10,7 +10,7 @@ def discount
   @total = @total*(1-(20/100))
 end
 
-def add_item(title,price)
-  @total=@total+price
+def add_item(title,price,optional_item_price)
+  @total=@total+price+optional_item_price
 end
 end
