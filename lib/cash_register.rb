@@ -15,6 +15,6 @@ def add_item(title,price,count=1) #80 + @18
 end
 
 def apply_discount
-  @total = (@total * discount)
+  @total = (add_item * discount)
 end
 end
