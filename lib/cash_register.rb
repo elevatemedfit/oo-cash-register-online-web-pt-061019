@@ -10,7 +10,7 @@ attr_accessor :discount, :item, :last_transaction, :total
   end
 
 def discount
-     @total = self.total*(20/100)
+     @total = 100*(20/100)
 end
 
 def add_item(title,price,count=1) #80 + @18
