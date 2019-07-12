@@ -7,7 +7,7 @@ def initialize(total = 0)
 end
 
 def discount
-  @total = @total*(1-(20/100))
+  @total = (20/100)
 end
 
 def add_item(title,price,count=1)
@@ -15,7 +15,7 @@ def add_item(title,price,count=1)
 end
 
 def apply_discount
-
+@total.discout
 
 end
 end
