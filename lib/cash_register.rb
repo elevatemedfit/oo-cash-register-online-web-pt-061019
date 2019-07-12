@@ -25,6 +25,9 @@ def apply_discount
       end
     end
 
+    def last_transaction
+      @total=@total.pop
+
     def items
       @items.flatten
     end
