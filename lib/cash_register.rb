@@ -13,6 +13,7 @@ attr_accessor :discount, :item, :last_transaction, :total
 def add_item(title,price,count=1)
   @items << (title.split(","))*count#80 + @18
   @total = self.total+(price*count)
+  @last_transaction-=@total
 end
 
 def apply_discount
@@ -25,8 +26,8 @@ def apply_discount
       end
     end
 
-    def void_last_transaction(price)
-      @total = self.total-(price).pop
+    def void_last_transaction
+      @total = @total
     end
 
     def items
