@@ -15,7 +15,7 @@ def add_item(title,price,count=1)
 end
 
 def apply_discount
-@total = self.total.discount
+@total = @total.discount
 
 end
 end
