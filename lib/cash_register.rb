@@ -25,6 +25,6 @@ def apply_discount
     end
 
     def items
-      @items << self.new.title
+      @items << self.title
     end
 end
